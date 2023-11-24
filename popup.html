@@ -11,20 +11,20 @@
     <div id="loginBox" class="loginBox">
       <div>
           <label for="emailInput">Email</label>
-          <input id="emailInput" value="test@test.com">
+          <input id="emailInput" >
       </div>
       <div>
           <label for="passwordInput">Password</label>
-          <input id="passwordInput" value="1234">
+          <input id="passwordInput" >
       </div>
-  </div>
+    </div>
     <button id="loginButton">Login / Logout</button>
   </div>
 
 <hr>
 
-
-
+<div class="hiddenOnStart" id="hiddenOnStart">
+  <h4>Logged in and tracking websites.</h4>
   <div class="container mt-3" style="width: 450px;">
     <h2>Time Tracker</h2>
     <h4 class="text-center">Tracking time spent on the browser...</h4>
@@ -44,7 +44,7 @@
       </tbody>
     </table>
   </div>
-
+</div>
   <script src="popup.js"></script>
   <script type="module" src="backend-fetch.js"></script>
 </body>
